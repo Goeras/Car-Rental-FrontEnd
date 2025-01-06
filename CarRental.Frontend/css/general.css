@@ -1,0 +1,170 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  overflow-x: hidden;
+}
+
+span {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 9.8rem;
+}
+
+h2 {
+  font-size: 7.4rem;
+}
+
+h3 {
+  font-size: 6.2rem;
+}
+
+h4 {
+  font-size: 5.2rem;
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
+
+/* TABLES */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 2.4rem;
+}
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #1098ad;
+}
+
+tr:nth-child(odd) {
+  background-color: #dee2e6;
+}
+
+.container {
+  /* 1140px */
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.shadow-box {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 15px;
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--center-v {
+  align-items: center;
+}
+
+.grid--center-h {
+  justify-items: center;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-box {
+  margin-top: 10rem;
+
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 10rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.margin-bottom {
+  margin-bottom: 10rem;
+}
+
+.margin-top {
+  margin-top: 10rem;
+}
+
+.input-size {
+  height: 5rem;
+  padding: 0.5rem;
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.list-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.list-attributes {
+  list-style: none;
+  list-style-position: inside;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 2.4rem;
+}
+
+.list-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #2f9e44;
+  margin-right: 1.3rem;
+}
